@@ -1,0 +1,44 @@
+:root {
+    --margin: 2%;
+}
+
+body {
+    text-align: center;
+}
+
+div.main_ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: var(--margin);
+}
+
+div.section1 {
+    width: 38%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+div.section2 {
+    width: 36%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+h2.sectionheader {
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 40px;
+    margin-top: var(--margin);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+h4.subsectionheader {
+    font-family: 'Outfit', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+span.subsectionbody {
+    font-family: 'Lato', sans-serif;
+
+}
